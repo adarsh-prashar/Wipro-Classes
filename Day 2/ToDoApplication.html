@@ -1,0 +1,45 @@
+<!-- here we will have all the business logic related to To Do app for HTML -->
+ <!-- Following are some user stories based on creating To Do Application -->
+ <!--1. As a user, I want to add a new task to my To Do list so that I can keep track of my tasks.
+ 2. As a user, I want to mark a task as complete so that I can see which tasks I have finished.
+ 3. As a user, I want to delete a task from my To Do list so that I can remove tasks I no longer need to do.
+ 4. As a user, I want to edit an existing task so that I can update its details.
+ 5. As a user, I want to filter tasks by their completion status (e.g., all, active, completed) so that I can focus on specific tasks. -->
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-Do List</title>
+      <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+</div>
+<div class="container" role="application" aria-labelledby="todoTitle">
+  <div class="header">
+    <h2 id="todoTitle">To‑Do List</h2>
+    <small class="task-meta">Simple, focused task manager</small>
+  </div>
+
+  <div class="input-group" aria-hidden="false">
+    <input id="taskInput" type="text" placeholder="Add a task and press Enter or click Add" aria-label="Task description">
+    <button id="addTaskButton" class="btn" type="button">Add</button>
+  </div>
+
+  <ul id="taskList" aria-live="polite"></ul>
+
+  <div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end">
+    <button id="clearCompleted" class="btn btn-icon" type="button">Clear completed</button>
+  </div>
+</div>
+
+<!-- scripts: keep simple non-module includes so this can be opened directly in browser -->
+<script src="script.js"></script>
+<script src="delete.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!-- Steps to follow in order to implement Fetch API with Async/Await and DOM manipulation -->
+<!-- 1. Choose a Weather API: Select a public weather API that provides the data you need. 
+ For this demo, we can use the OpenWeatherMap API (https://openweathermap.org/api). You may need to sign up for an API key. -->
+<!-- 2. Set Up HTML Structure: Create a basic HTML structure with input fields for the city name, a button to fetch the weather data, and a section to display the results. -->`
+<!-- 3. Fetch Weather Data: Use the Fetch API along with Async/Await to make a GET request to the weather API when the button is clicked. -->
+<!-- 4. Handle the Response: Parse the JSON response and extract the relevant weather information. -->
+<!-- 5. Update the DOM: Dynamically update the HTML to display the fetched weather data. -->
+<!-- 6. Error Handling: Implement error handling to manage cases where the API request fails or the city is not found. -->
+
+<!-- in this demo we will  Fetch Weather API( GET + POST), DOM manipulation  with error handling  and Dynamic Update  based on following steps -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API Demo</title>
+          <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Weather API Demo</h1>
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="cityInput" 
+                placeholder="Enter city name (e.g., London, Tokyo, New York)"
+                aria-label="City name">
+            <button id="fetchWeatherBtn">Get Weather</button>
+        </div>
+        <div id="weatherResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

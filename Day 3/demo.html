@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        function add(x, y) {
+            return x + y;
+        }
+        console.log("ADD:", add(5, 10));
+
+        const multiply = (x, y) => x * y;
+        console.log("MULTIPLY:", multiply(5, 10));
+
+        const square = x => x * x;
+        console.log("SQUARE:", square(5));   
+    </script> -->
+
+    <script>
+        class person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+
+            greet() {
+                console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+            }
+        }  
+        
+        const alice = new person("Alice", 25);
+        alice.greet();
+        alert(`Person Details:\nName: ${alice.name}\nAge: ${alice.age}`);
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Simulating API Call with Promises
+        function orderFood() { 
+            return new Promise((resolve, reject) => {
+                // resolve  and reject are callback functions that we can call based on the outcome of the asynchronous operation
+                // Simulating a delay for food preparation
+                console.log("Step 1: You order something to eat.");
+                setTimeout(() => {
+                    console.log("Step 2: Kitchen prepares your food.");
+                    resolve("Food is ready!");
+                }, 2000);
+                // 2000 is 2 seconds delay
+            });
+        }
+        function serveFood() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    console.log("Step 3: Waiter brings food to your table.");
+                    resolve();
+                }, 1000); // 1 second delay
+            });
+        }
+   // Using the Promises
+        orderFood()
+            .then((message) => {
+                // here message is "Food is ready!" 
+                console.log(message);
+                return serveFood();
+            })
+            .then(() => {
+                console.log("Enjoy your meal!");
+            });
+    </script>
+    </script>
+</body>
+</html>
