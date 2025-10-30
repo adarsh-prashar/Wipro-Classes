@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Course Management System</h1>
+        </header>
+        <main>
+            <section class="section">
+                <h2>Add Instructor</h2>
+                <div class="form-group">
+                    <label for="instructorName">Name:</label>
+                    <input type="text" id="instructorName" placeholder="Enter instructor name" required>
+                </div>
+                <div class="form-group">
+                    <label for="instructorExpertise">Expertise:</label>
+                    <input type="text" id="instructorExpertise" placeholder="Enter expertise" required>
+                </div>
+                <button id="addInstructorBtn">Add Instructor</button>
+            </section>
+
+            <section class="section">
+                <h2>Add Student</h2>
+                <div class="form-group">
+                    <label for="studentName">Name:</label>
+                    <input type="text" id="studentName" placeholder="Enter student name" required>
+                </div>
+                <button id="addStudentBtn">Add Student</button>
+            </section>
+
+            <section class="section">
+                <h2>Create Course</h2>
+                <div class="form-group">
+                    <label for="courseTitle">Title:</label>
+                    <input type="text" id="courseTitle" placeholder="Enter course title" required>
+                </div>
+                <div class="form-group">
+                    <label for="courseCategory">Category:</label>
+                    <select id="courseCategory" required>
+                        <option value="">Select a category</option>
+                        <option value="Development">Development</option>
+                        <option value="Design">Design</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Business">Business</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="courseInstructorId">Instructor ID:</label>
+                    <input type="number" id="courseInstructorId" placeholder="Enter instructor ID" required>
+                </div>
+                <button id="createCourseBtn">Create Course</button>
+            </section>
+
+            <section class="section">
+                <h2>Enroll Student</h2>
+                <div class="form-group">
+                    <label for="enrollCourseId">Course ID:</label>
+                    <input type="number" id="enrollCourseId" placeholder="Enter course ID" required>
+                </div>
+                <div class="form-group">
+                    <label for="enrollStudentId">Student ID:</label>
+                    <input type="number" id="enrollStudentId" placeholder="Enter student ID" required>
+                </div>
+                <button id="enrollStudentBtn">Enroll Student</button>
+            </section>
+
+            <section class="section">
+                <button id="printSummaryBtn">Print Summary</button>
+            </section>
+
+            <section class="section">
+                <h2>Output</h2>
+                <div id="output"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
