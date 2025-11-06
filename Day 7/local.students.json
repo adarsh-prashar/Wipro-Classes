@@ -1,0 +1,137 @@
+[{
+  "_id": {
+    "$oid": "69043b806bbf5d165fee3c60"
+  },
+  "StudentID": "S101",
+  "StudentName": "Asha Gupta",
+  "Course": "Database Systems",
+  "Instructor": "Dr. Mehta",
+  "Department": "Computer Science",
+  "Grade": "A"
+},
+{
+  "_id": {
+    "$oid": "69043b8f6bbf5d165fee3c62"
+  },
+  "StudentID": "S102",
+  "StudentName": "Raj Verma",
+  "Course": "Data Structures",
+  "Instructor": "Dr. Sharma",
+  "Department": "Computer Science",
+  "Grade": "B"
+}
+,
+{
+  "_id": {
+    "$oid": "69043b9a6bbf5d165fee3c64"
+  },
+  "StudentID": "S103",
+  "StudentName": "Neha Singh",
+  "Course": "Operating Systems",
+  "Instructor": "Dr. Kapoor",
+  "Department": "Computer Science",
+  "Grade": "A"
+}
+,
+{
+  "_id": {
+    "$oid": "69043ba46bbf5d165fee3c66"
+  },
+  "StudentID": "S104",
+  "StudentName": "Vikram Patel",
+  "Course": "Computer Networks",
+  "Instructor": "Dr. Iyer",
+  "Department": "Computer Science",
+  "Grade": "C"
+}
+,
+{
+  "_id": {
+    "$oid": "69043bb06bbf5d165fee3c68"
+  },
+  "StudentID": "S105",
+  "StudentName": "Pooja Reddy",
+  "Course": "Software Engineering",
+  "Instructor": "Dr. Nair",
+  "Department": "Computer Science",
+  "Grade": "B"
+}
+,
+{
+  "_id": {
+    "$oid": "69043bbe6bbf5d165fee3c6a"
+  },
+  "StudentID": "S106",
+  "StudentName": "Aman Kumar",
+  "Course": "Web Development",
+  "Instructor": "Dr. Joshi",
+  "Department": "Computer Science",
+  "Grade": "A"
+}
+,
+{
+  "_id": {
+    "$oid": "69043bca6bbf5d165fee3c6c"
+  },
+  "StudentID": "S107",
+  "StudentName": "Sneha Das",
+  "Course": "Mobile App Development",
+  "Instructor": "Dr. Banerjee",
+  "Department": "Computer Science",
+  "Grade": "B"
+},
+{
+  "_id": {
+    "$oid": "69043bd76bbf5d165fee3c6e"
+  },
+  "StudentID": "S108",
+  "StudentName": "Karan Malhotra",
+  "Course": "Artificial Intelligence",
+  "Instructor": "Dr. Gupta",
+  "Department": "DS & AI",
+  "Grade": "A"
+}
+,{
+  "_id": {
+    "$oid": "69043be36bbf5d165fee3c70"
+  },
+  "StudentID": "S109",
+  "StudentName": "Tanya Sharma",
+  "Course": "Machine Learning",
+  "Instructor": "Dr. Singh",
+  "Department": "DS & AI",
+  "Grade": "A"
+}
+,{
+  "_id": {
+    "$oid": "69043bf06bbf5d165fee3c72"
+  },
+  "StudentID": "S110",
+  "StudentName": "Rohit Joshi",
+  "Course": "Data Science",
+  "Instructor": "Dr. Chatterjee",
+  "Department": "DS & AI",
+  "Grade": "B"
+}
+,{
+  "_id": {
+    "$oid": "69043bfc6bbf5d165fee3c74"
+  },
+  "StudentID": "S111",
+  "StudentName": "Maya Iyer",
+  "Course": "Deep Learning",
+  "Instructor": "Dr. Nandakumar",
+  "Department": "DS & AI",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "69043c0a6bbf5d165fee3c76"
+  },
+  "StudentID": "S112",
+  "StudentName": "Aditya Rao",
+  "Course": "Natural Language Processing",
+  "Instructor": "Dr. Bhattacharya",
+  "Department": "DS & AI",
+  "Grade": "B"
+}
+]

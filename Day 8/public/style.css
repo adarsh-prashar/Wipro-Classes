@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #111;
+  padding: 2rem;
+}
+
+h1 {
+  color: #1d4ed8;
+  margin-bottom: 1.5rem;
+}
+
+pre {
+  background: #e5e7eb;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
