@@ -1,3 +1,21 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MYSQL Local",
+            "database": "wipro",
+            "username": "root",
+            "password": "Adarsh@123",
+            "connectionTimeout": 30
+        }
+    ]
 }
