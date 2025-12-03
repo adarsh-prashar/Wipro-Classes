@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.10.1",
+    "cra-template-pwa": "^2.0.0",
+    "flux": "^4.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^5.1.0"
+  },
+  "devDependencies": {
+    "workbox-core": "^7.3.0",
+    "workbox-precaching": "^7.3.0",
+    "workbox-routing": "^7.3.0"
+  }
+}
